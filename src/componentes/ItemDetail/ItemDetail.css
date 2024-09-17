@@ -1,0 +1,29 @@
+
+.contenedorItem{
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px;
+    width: 80rem;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.contenedorItem img{
+    width: 20vw;
+}
+
+.contenedorItem h2{
+    padding-bottom: 20px;
+}
+
+.contenedorItem h3{
+    padding-bottom: 10px;
+}
+
+.contenedorItem p{
+    padding-top: 10px;
+}

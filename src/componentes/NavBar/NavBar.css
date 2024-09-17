@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    box-shadow: 0 3px 5px rgba(0, 0,0, 0.100);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-right: 15rem;
+}
+
+
