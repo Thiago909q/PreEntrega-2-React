@@ -8,7 +8,7 @@
     margin: 50px;
     width: 80rem;
     margin: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 
 
 }
 
@@ -27,3 +27,44 @@
 .contenedorItem p{
     padding-top: 10px;
 }
+
+button{
+    background-color:rgb(15, 15, 15) ;
+    color: #fafafa;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+    margin: 6px 2px;
+    
+}
+button:hover{
+    color: #ee6130;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+strong{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 
+}
+
+p{
+    font-family: 'Trebuchet MS';
+    margin-bottom: 15px;
+}
+
+.BtnTerminarCompra {
+    
+    background-color:rgb(15, 15, 15) ;
+    color: #fafafa;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    
+
+}
+

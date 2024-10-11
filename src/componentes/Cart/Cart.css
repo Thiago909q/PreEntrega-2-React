@@ -1,0 +1,67 @@
+.contenedorCarritoVacio{
+    background-color: rgb(94, 91, 91);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0000001a;
+    margin: 0px auto;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+
+.contenedorCarrito{
+    background-color: rgb(94, 91, 91);
+    color: white;
+    flex-direction: column;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0000001a;
+    margin: 0px auto;
+    padding: 50px 70px;
+    margin-top: 80px;
+}
+
+.contenedorCarrito h3{
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+.funcionCarritoProductos{
+    display: flex;
+    margin-top:20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+
+
+.BtnFinalizarCompra{
+    background-color:rgb(15, 15, 15) ;
+    color: #fafafa;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.DivVerProductos{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.BtnVerProductos{
+    background-color:rgb(15, 15, 15) ;
+    color: #fafafa;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    
+}

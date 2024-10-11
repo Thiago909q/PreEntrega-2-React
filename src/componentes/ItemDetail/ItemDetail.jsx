@@ -32,7 +32,7 @@ const manejadorCantidad = (cantidad) =>{
           Facilis commodi harum eligendi eum amet quia nesciunt asperiores. Quibusdam voluptates assumenda ipsam magni dignissimos totam ex culpa maiores atque?</p>
     
     {
-      agregarCantidad > 0 ? (<Link to="/cart"> Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
+      agregarCantidad > 0 ? (<Link to="/cart" className='BtnTerminarCompra'> Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
     }
     </div>
   )
