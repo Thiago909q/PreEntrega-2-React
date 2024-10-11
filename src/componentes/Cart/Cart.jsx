@@ -22,13 +22,11 @@ const Cart = () => {
 
   return (
     <div className="contenedorCarrito">
-        <div className="funcionCarritoProductos">
             {
                 
-                carrito.map(producto => <CartItem key={producto.item.id} {...producto} />)
+                carrito.map(producto => <CartItem key={producto.item.id} id = "productosCarrito" {...producto} />)
 
             }
-            </div>
 
         <h3>Total: ${total}</h3>
         <h3>Cantidad Total: {cantidadTotal}</h3>
