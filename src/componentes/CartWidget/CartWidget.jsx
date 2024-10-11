@@ -10,7 +10,7 @@ const CartWidget = () => {
   return (
     <div>
       <Link to="/cart">
-        <img src="public/img/shopping-cart.png" alt=""/>
+        <img src="/img/carrito.png" alt="carrito"/>
       </Link>
         {
           cantidadTotal > 0 && <span>{cantidadTotal}</span>
