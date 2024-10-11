@@ -13,14 +13,27 @@ header{
     font-size: 1.3rem;
     box-shadow: 0 3px 5px rgba(0, 0,0, 0.100);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 ul{
     display: flex;
     gap: 50px;
     list-style: none;
+    text-decoration: none;
     padding-right: 15rem;
 }
 
+
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+        color: #ee6130;
+        
+    
+}
 
